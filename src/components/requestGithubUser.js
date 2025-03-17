@@ -17,3 +17,25 @@ fetch("/create/user", {
 });
 */
 
+/*
+// Загрузка файлов с помощью функции fetch
+const formData = new FprmData();
+formData.append("username", "moontahoe");
+formData.append("fullname", "Alex Banks");
+formData.append("avatar", imgFile);
+
+fetch("/create/user", {
+	method: "POST",
+	body: formData
+})
+*/
+
+/*
+//Авторизованные запросы
+fetch(`https://api.github.com/users/${login}`, {
+  method: "GET",
+  headers: {
+    Authorization: `Bearer ${token}`,
+  },
+});
+*/
