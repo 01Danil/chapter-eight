@@ -1,3 +1,4 @@
+/*
 export async function requestGithubUser(githubLogin) {
   try {
     const response = await fetch(`https://api.github.com/users/${githubLogin}`);
@@ -7,3 +8,12 @@ export async function requestGithubUser(githubLogin) {
     console.log(error);
   }
 }
+*/
+
+/*
+fetch("/create/user", {
+  method: "POST",
+  body: JSON.stringify({ username, password, bio }),
+});
+*/
+
